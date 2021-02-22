@@ -1,0 +1,29 @@
+{
+  "name": "oni",
+  "version": "0.0.2",
+  "main": "oni.js",
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.2",
+    "discord.js": "^12.5.1",
+    "keyv": "^4.0.3",
+    "moment-duration-format": "^2.3.2",
+    "npm": "^7.5.2",
+    "pm2": "^4.5.4",
+    "sodium": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joshj23",
+  "license": "ISC",
+  "description": "Oni discord bot; made by Joshj23$4817",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haru-Industries/Oni.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Haru-Industries/Oni/issues"
+  },
+  "homepage": "https://github.com/Haru-Industries/Oni#readme"
+}
