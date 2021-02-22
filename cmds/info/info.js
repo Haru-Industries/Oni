@@ -1,13 +1,11 @@
 const Discord = require('discord.js'),
   Keyv = require('keyv'),
-  pino = require('pino'),
-  logger = pino({ prettyPrint: true }),
   { owners, prefix } = require('../../config.json'),
   { version, } = require('../../package.json'),
   prefixes = new Keyv('sqlite://prefixes.sqlite'),
   moment = require("moment"),
   os = require('os');
-prefixes.on('error', err => logger.error(`(Info | Prefixes) Keyv connection error: ${err}`));
+prefixes.on('error', err => console.error(`(Info | Prefixes) Keyv connection error: ${err}`));
 require("moment-duration-format");
 
 
