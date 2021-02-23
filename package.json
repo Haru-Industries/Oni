@@ -1,9 +1,13 @@
 {
   "name": "oni",
   "version": "0.0.2",
-  "description": "",
+  "description": "Testing place for Haru commands/additions.",
   "main": "oni.js",
   "dependencies": {
+    "@keyv/sqlite": "^2.0.2",
+    "discord.js": "^12.5.1",
+    "keyv": "^4.0.3",
+    "moment-duration-format": "^2.3.2",
     "pm2": "^4.5.4"
   },
   "devDependencies": {},
