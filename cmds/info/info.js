@@ -1,7 +1,5 @@
 const Discord = require('discord.js'),
   Keyv = require('keyv'),
-  pino = require('pino'),
-  logger = pino({ prettyPrint: true }),
   { owners, prefix } = require('../../config.json'),
   { version, } = require('../../package.json'),
   prefixes = new Keyv('sqlite://prefixes.sqlite'),
