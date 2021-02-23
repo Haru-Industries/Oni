@@ -1,5 +1,5 @@
 # Oni<br>
 
-Oni serves as a testing bot for features being added to Haru.
+Oni serves as a testing bot for features being added to 
 
-requires pm2.
+pm2 is recommended
